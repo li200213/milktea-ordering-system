@@ -77,5 +77,5 @@ src/
 └── ...
 WebContent/
 ├── jsp/           # 页面 (Login, Cart, Index...)
-├── css/           # 全局样式
+├── css/           # 样式
 ├── image/         # 商品图片及素材
