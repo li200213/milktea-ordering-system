@@ -69,15 +69,13 @@
 
 ```text
 src/
-├── dao/           # 数据访问层 (DAO模式)
+├── dao/           # 数据访问
 ├── model/         # 实体类 (User, Product, Order...)
-├── service/       # 业务逻辑层
-├── servlet/       # 控制层 (处理请求与响应)
+├── service/       # 业务逻辑
+├── servlet/       # 控制 (处理请求与响应)
 ├── utils/         # 工具类 (DB连接, C3P0配置)
 └── ...
 WebContent/
-├── admin/         # 后台管理页面 (JSP + CSS)
-├── jsp/           # 前台用户页面 (Login, Cart, Index...)
+├── jsp/           # 页面 (Login, Cart, Index...)
 ├── css/           # 全局样式
 ├── image/         # 商品图片及素材
-└── WEB-INF/       # web.xml 配置
