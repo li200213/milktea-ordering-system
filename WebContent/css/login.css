@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.bt{
+	width: 996px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.box{
+	overflow: hidden;
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.error-info{
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-left: 12px;
+	background: rgba(253, 100, 99, 0.10196);
+	font-size: 14px;
+	color: #626262;
+	font-family:"微软雅黑";
+}
+.error-info img{
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+}
+.error-info .error-content{
+	display:inline-block;
+}
+.box .form-field{
+	width: 320px;
+	height: 40px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	color: #626262;
+	font-size: 14px;
+}
+.box .form-field .bq{
+	width: 60px;
+	height: 40px;
+	float: left;
+	background: #ededed;
+	text-align: center;
+	line-height: 40px;
+	font-family:"微软雅黑";
+}
+.box .form-field .input{
+	width: 250px;
+	height: 40px;
+	float: left;
+	margin-left: 10px;
+	background: #ededed;
+}
+.box .form-field .inline-tip{
+	height: 40px;
+	line-height: 40px;
+	position: absolute;
+	left: 880px;
+    font-size: 13px;
+    font-family:"微软雅黑";
+    color: red;
+}
+.box .form-field .input input{
+	display: inline-block;
+	width: 240px;
+	height: 30px;
+	ling-height: 30px;
+	float: left;
+	margin: 5px 0px 5px 10px;
+	background: #ededed;
+	border: 1px solid #ededed;
+	font-size: 14px;
+	color: #626262;
+	font-family:"微软雅黑";
+}
+.box .form-field .input a{
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #626262;
+	text-decoration: none;
+	font-family:"微软雅黑";
+}
+.box .form-field .input a:hover{
+	text-decoration:  underline;
+	color: #008000;
+}
+.box .login_btnBox{
+	width: 210px;
+	height: 40px;
+	float: left;
+}
+.box .login_btnBox input{
+	display: inline-block;
+	width: 210px;
+	height: 40px;
+	background: #00a600;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	border: 0;
+	font-family:"微软雅黑";
+}
+.box .register_btnBox{
+	display: block;
+	width: 100px;
+	height: 40px;
+	float: right;
+	background: #ededed;
+	color: #626262;
+	font-size: 13px;
+	text-align: center;
+	line-height: 40px;
+	border: 0;
+	font-family:"微软雅黑";
+	text-decoration: none;
+}
+.box .register_btnBox:hover{
+	color: #008000;
+}

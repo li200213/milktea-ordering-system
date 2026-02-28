@@ -1,0 +1,121 @@
+@charset "UTF-8";
+html,body {
+	/*删除浏览器的默认样式，方便后面的设置*/
+	margin:0px; 
+	padding:0px;  
+}
+.header{
+	width: 996px;
+	height: 115px;
+	margin: 0 auto; 
+	backgroud: #fff;
+	margin-bottom: 10px;
+}
+.header h1{
+	float: left;
+	line-height: 115px;
+}
+.header .header_right{
+	float: right;
+	width: 825px; 	/*左边图片的宽度是151px,所以剩余的宽度就是825px*/
+	margin-top: 25px;
+	color: #008000;
+}
+.header .header_right .login_and_register{
+	display: inline-block; /*因为上一级是div元素，div元素会独占一行，如果自己是div元素，必须设为行内块*/
+	float: right;
+	width: 100%;
+	height: 25px;
+	margin-top: -8px;
+	margin-bottom: 8px;
+	text-align: right; /*text-align应用于块级元素的文本水平对齐，设置为右对齐*/
+	line-height: 25px;
+}
+.header .header_right .login_and_register label{
+	float: right;
+	padding-right: 0;
+}
+.header .header_right .login_and_register a{
+	color: #008000;
+	font-size: 13px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+#my_nav{
+	float: left;
+	width: 650px;
+	height: 50px;
+	text-align: center;
+}
+#my_nav .nav-item{
+	display: list-item;
+	width: 165px;
+	border-right:1px solid #008000;
+}
+#my_nav a{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	text-decoration: none;
+	cursor: pointer;
+	padding:0;
+}
+#my_nav span{
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #008000;
+}
+#my_menu{
+	text-align: center;
+	border: 0;
+	background: #fff;
+	width: 125px;
+}
+#my_menu li{
+	width: 125px;
+	height: 40px;
+	line-height: 40px;
+	margin:0 auto;
+}
+#my_menu li a{
+	font-size: 13px;
+	font-family: "微软雅黑";
+	color: #008000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.search_and_cart{
+	float: right;
+	width: 175px;
+	height: 50px;
+}
+.search_and_cart .search_box{
+	float: left;
+	width: 125px;
+	height: 50px;
+	line-height: 50px;
+	padding-top: 10px;
+}
+.search_and_cart .search_box input{
+	border: 1px solid #008000;
+}
+.search_and_cart .search_box button{
+	border: 1px solid #008000;
+	border-left: none;
+}
+.search_and_cart .search_box i{
+	font-size: 15px;
+	color: #008000;
+}
+.search_and_cart .cart{
+	width:50px;
+	float: right;
+	line-height: 50px;
+}
+.search_and_cart .cart i{
+	float:right;
+	font-size: 20px;
+	color: #008000;
+}

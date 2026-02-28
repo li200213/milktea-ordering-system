@@ -1,0 +1,61 @@
+@charset "UTF-8";
+#my_carousel,.footer{
+	margin: 0 auto;
+	width: 996px;
+}
+#my_carousel .carousel-inner{
+	height: 450px;
+}
+#my_carousel .carousel-inner img{
+	margin: 0 auto;
+}
+.index_tree{
+	overflow: hidden;
+	width: 1017px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.jingdian{
+	width: 325px;
+	float: left;
+	margin-left: 10.5px;
+	overflow: hidden;
+}
+.tu{
+	height:220px;
+	overflow:hidden;
+}
+.tu img{
+	width: 325px;
+    height: 220px;
+    margin: 0 auto;
+    transition: all 0.7s ease 0s;
+}
+.tu img:hover{
+	transform: scale(1.05);
+}
+.tb{
+	width: 325px;
+    height: 50px;
+    display: inline-block;
+    background: #00aa00;
+}
+.tb span{
+	display: inline-block;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	font-size: 13px;
+	color: #fff;
+	padding-left: 15px;
+	font-family: "微软雅黑";
+}
+.footer{
+	height: 30px;
+	margin-top: 10px;
+	background: #ededed;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}

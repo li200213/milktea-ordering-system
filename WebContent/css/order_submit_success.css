@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.order_success,.btn_div{
+	width:996px;
+	margin:0 auto;
+	text-align:center;
+}
+.order_success{
+	margin-top:150px;
+	height: 150px;
+	font-family: 微软雅黑;
+	color:#626262;
+}
+.order_success i{
+	font-size: 70px;
+	color:#ff6c6c;
+}

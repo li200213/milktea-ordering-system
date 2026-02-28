@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.footer{
+	overflow: hidden;
+	/* 下面两行是使其在底部显示*/
+	position: fixed;
+	bottom: 0px;
+	/* 下面三行代码是使其居中显示*/
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 996px;
+	height: 30px;
+	background: #ededed;
+	text-align: center;
+	line-height: 30px;
+	font-size: 15px;
+	font-family: "微软雅黑";
+}
